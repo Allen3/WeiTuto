@@ -1,0 +1,13 @@
+<resources>
+	<item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
+
+	<item name="ic_menu_slideshow" type="drawable">@android:drawable/ic_menu_slideshow</item>
+
+	<item name="ic_menu_share" type="drawable">@android:drawable/ic_menu_share</item>
+	<item name="ic_menu_send" type="drawable">@android:drawable/ic_menu_send</item>
+
+	<!--Custom-->
+	<item name="ic_menu_my_enrollments" type="drawable">@android:drawable/ic_menu_info_details</item>
+	<item name="ic_menu_available_courses" type="drawable">@android:drawable/ic_menu_gallery</item>
+	<item name="ic_menu_settings" type="drawable">@android:drawable/ic_menu_preferences</item>
+</resources>
