@@ -1,32 +1,29 @@
-<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-											xmlns:tools="http://schemas.android.com/tools"
-											android:layout_width="match_parent"
-											android:layout_height="match_parent"
-											android:scrollbars="none"
-											tools:context="me.proj.allen.weibotuto.fragment.HomeCoursePanel">
-
-	<LinearLayout
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:tools="http://schemas.android.com/tools"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  tools:context="me.proj.allen.weibotuto.fragment.HomeCoursePanel">
 		<include
+				android:id="@+id/section_one_home_course_panel"
 				layout="@layout/section_home_course_panel"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"/>
 		<include
+				android:id="@+id/section_two_home_course_panel"
 				layout="@layout/section_home_course_panel"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"/>
 		<include
+				android:id="@+id/section_three_home_course_panel"
 				layout="@layout/section_home_course_panel"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"/>
 		<include
+				android:id="@+id/section_four_home_course_panel"
 				layout="@layout/section_home_course_panel"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"/>
 
 
-	</LinearLayout>
-
-</android.support.v4.widget.NestedScrollView>
+</LinearLayout>
